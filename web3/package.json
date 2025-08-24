@@ -5,11 +5,12 @@
     "deploy": "npx thirdweb@latest deploy",
     "release": "npx thirdweb@latest release"
   },
-  "devDependencies": {
-    "hardhat": "^2.10.1"
-  },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3",
     "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.3"
   }
 }

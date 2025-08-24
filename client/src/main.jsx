@@ -11,7 +11,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ThirdwebProvider activeChain={Sepolia} secretKey='691f5a293f856afea2985edae6eef8193e35cdcb87dd3eaa2cb0b61e6a3e9ace' clientId='25aa11a0acc9f76d6408fe6d80714d94'> 
+  <ThirdwebProvider activeChain={Sepolia} secretKey='CyiKCrCVwbe-rcos7RtL6dsZvs101_U_NChFBaBEPHVOo9290fBj1a0nvBLFoFfvW9N8pFD4uXOTrEpovQ_iTA' clientId='3016bdacf33a9e577a00c2ad5bd4fb11'> 
     <Router>
       <StateContextProvider>
         <App />
